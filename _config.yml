@@ -8,7 +8,7 @@ subtitle: Make it simple but special.
 description: summary & record
 keywords:  
 author: Linkang Sun
-language: zh-Hans
+language: 
 timezone: Asia/Shanghai
 
 # URL
@@ -73,10 +73,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: modernist
+theme: next
 
-stylus:
- compress: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
