@@ -17,23 +17,9 @@
 <html class="theme-next muse use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
-<meta name="theme-color" content="#222">
-
-
-
-
-
-
-
-
-
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="theme-color" content="#222"/>
 
 
 
@@ -56,37 +42,41 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=6.4.2" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.4.2">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.4.2">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.4.2">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=6.4.2" color="#222">
 
 
 
 
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2"/>
+
+<link rel="stylesheet" href="/css/main.css?v=7.0.1"/>
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.0.1">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.0.1">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.0.1" color="#222">
 
 
 
 
 
-<script type="text/javascript" id="hexo.configurations">
+
+
+<script id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
     scheme: 'Muse',
-    version: '6.4.2',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    version: '7.0.1',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -128,7 +118,7 @@
 
 
 
-<script type="text/javascript" id="page.configurations">
+<script id="page.configurations">
   CONFIG.page = {
     sidebar: "",
   };
@@ -145,30 +135,31 @@
 
 
 
+
+
+
   <noscript>
-  <style type="text/css">
-    .use-motion .motion-element,
-    .use-motion .brand,
-    .use-motion .menu-item,
-    .sidebar-inner,
-    .use-motion .post-block,
-    .use-motion .pagination,
-    .use-motion .comments,
-    .use-motion .post-header,
-    .use-motion .post-body,
-    .use-motion .collection-title { opacity: initial; }
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
 
-    .use-motion .logo,
-    .use-motion .site-title,
-    .use-motion .site-subtitle {
-      opacity: initial;
-      top: initial;
-    }
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
 
-    .use-motion {
-      .logo-line-before i { left: initial; }
-      .logo-line-after i { right: initial; }
-    }
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
   </style>
 </noscript>
 
@@ -186,7 +177,7 @@
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
+  <div class="site-meta">
     
 
     <div class="custom-logo-site-title">
@@ -200,6 +191,7 @@
       
         <p class="site-subtitle">Make it simple but special.</p>
       
+    
     
   </div>
 
@@ -223,16 +215,34 @@
         
           
           <li class="menu-item menu-item-home">
-    <a href="/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />Home</a>
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br/>Home</a>
+
   </li>
         
         
         
           
           <li class="menu-item menu-item-archives">
-    <a href="/archives/" rel="section">
-      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Archives</a>
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br/>Archives</a>
+
   </li>
 
       
@@ -319,18 +329,18 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/10/17/saying-5/" itemprop="url">
-              
-                <span itemprop="name">saying_5</span>
-              
-            </a>
+          <a class="post-title-link" href="/2018/10/17/saying-5/" itemprop="url">
+            
+              <span itemprop="name">saying_5</span>
+            
+          </a>
         
       </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2018-10-17T09:31:22+08:00"
-              content="2018-10-17" >
+              content="2018-10-17">
           10-17
         </time>
       </div>
@@ -356,18 +366,18 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/09/07/傻子/" itemprop="url">
-              
-                <span itemprop="name">傻子</span>
-              
-            </a>
+          <a class="post-title-link" href="/2018/09/07/傻子/" itemprop="url">
+            
+              <span itemprop="name">傻子</span>
+            
+          </a>
         
       </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2018-09-07T15:30:19+08:00"
-              content="2018-09-07" >
+              content="2018-09-07">
           09-07
         </time>
       </div>
@@ -393,18 +403,18 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/09/06/restart/" itemprop="url">
-              
-                <span itemprop="name">restart</span>
-              
-            </a>
+          <a class="post-title-link" href="/2018/09/06/restart/" itemprop="url">
+            
+              <span itemprop="name">restart</span>
+            
+          </a>
         
       </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2018-09-06T01:54:32+08:00"
-              content="2018-09-06" >
+              content="2018-09-06">
           09-06
         </time>
       </div>
@@ -430,18 +440,18 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/09/04/青春/" itemprop="url">
-              
-                <span itemprop="name">青春</span>
-              
-            </a>
+          <a class="post-title-link" href="/2018/09/04/青春/" itemprop="url">
+            
+              <span itemprop="name">青春</span>
+            
+          </a>
         
       </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2018-09-04T15:23:06+08:00"
-              content="2018-09-04" >
+              content="2018-09-04">
           09-04
         </time>
       </div>
@@ -467,18 +477,18 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/08/31/月色真美/" itemprop="url">
-              
-                <span itemprop="name">月色真美</span>
-              
-            </a>
+          <a class="post-title-link" href="/2018/08/31/月色真美/" itemprop="url">
+            
+              <span itemprop="name">月色真美</span>
+            
+          </a>
         
       </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2018-08-31T09:32:39+08:00"
-              content="2018-08-31" >
+              content="2018-08-31">
           08-31
         </time>
       </div>
@@ -504,18 +514,18 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/08/19/saying_4/" itemprop="url">
-              
-                <span itemprop="name">saying_4</span>
-              
-            </a>
+          <a class="post-title-link" href="/2018/08/19/saying_4/" itemprop="url">
+            
+              <span itemprop="name">saying_4</span>
+            
+          </a>
         
       </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2018-08-19T05:08:11+08:00"
-              content="2018-08-19" >
+              content="2018-08-19">
           08-19
         </time>
       </div>
@@ -541,18 +551,18 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/08/17/saying_3/" itemprop="url">
-              
-                <span itemprop="name">saying_3</span>
-              
-            </a>
+          <a class="post-title-link" href="/2018/08/17/saying_3/" itemprop="url">
+            
+              <span itemprop="name">saying_3</span>
+            
+          </a>
         
       </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2018-08-17T04:23:08+08:00"
-              content="2018-08-17" >
+              content="2018-08-17">
           08-17
         </time>
       </div>
@@ -578,18 +588,18 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/08/17/saying_2/" itemprop="url">
-              
-                <span itemprop="name">saying-2</span>
-              
-            </a>
+          <a class="post-title-link" href="/2018/08/17/saying_2/" itemprop="url">
+            
+              <span itemprop="name">saying-2</span>
+            
+          </a>
         
       </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2018-08-17T02:15:03+08:00"
-              content="2018-08-17" >
+              content="2018-08-17">
           08-17
         </time>
       </div>
@@ -615,18 +625,18 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/08/16/saying_1/" itemprop="url">
-              
-                <span itemprop="name">saying_1</span>
-              
-            </a>
+          <a class="post-title-link" href="/2018/08/16/saying_1/" itemprop="url">
+            
+              <span itemprop="name">saying_1</span>
+            
+          </a>
         
       </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2018-08-16T10:28:22+08:00"
-              content="2018-08-16" >
+              content="2018-08-16">
           08-16
         </time>
       </div>
@@ -652,18 +662,18 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/2018/05/06/木木夕/" itemprop="url">
-              
-                <span itemprop="name">木木夕</span>
-              
-            </a>
+          <a class="post-title-link" href="/2018/05/06/木木夕/" itemprop="url">
+            
+              <span itemprop="name">木木夕</span>
+            
+          </a>
         
       </h2>
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
               datetime="2018-05-06T08:15:54+08:00"
-              content="2018-05-06" >
+              content="2018-05-06">
           05-06
         </time>
       </div>
@@ -705,19 +715,18 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
-    
     <div class="sidebar-inner">
 
       
 
       
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <p class="site-author-name" itemprop="name">Linkang Sun</p>
-              <p class="site-description motion-element" itemprop="description">summary & record</p>
+              <div class="site-description motion-element" itemprop="description">summary & record</div>
           </div>
 
           
@@ -737,7 +746,11 @@
                 
                 
                 <div class="site-state-item site-state-categories">
-                  <a href="/categories/index.html">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
                     
                     
                       
@@ -772,6 +785,7 @@
           
 
           
+
           
 
           
@@ -783,7 +797,7 @@
           
 
         </div>
-      </section>
+      </div>
 
       
 
@@ -791,6 +805,7 @@
 
     </div>
   </aside>
+  
 
 
         
@@ -799,7 +814,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
@@ -811,9 +826,7 @@
 </div>
 
 
-
-
-  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> v3.7.1</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.7.1</div>
 
 
 
@@ -821,7 +834,7 @@
 
 
 
-  <div class="theme-info">Theme – <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Muse</a> v6.4.2</div>
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.0.1</div>
 
 
 
@@ -847,7 +860,7 @@
     
 
     
-	
+
     
 
     
@@ -855,7 +868,7 @@
 
   
 
-<script type="text/javascript">
+<script>
   if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
     window.Promise = null;
   }
@@ -887,61 +900,38 @@
 
 
   
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
 
   
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=6.4.2"></script>
+  <script src="/js/src/utils.js?v=7.0.1"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=6.4.2"></script>
+  <script src="/js/src/motion.js?v=7.0.1"></script>
 
 
 
   
   
 
-  
 
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.4.2"></script>
+  <script src="/js/src/schemes/muse.js?v=7.0.1"></script>
 
 
 
   
 
-
-
   
 
 
-
-
-
-
-
-
-
-
-  
-
-
-
+  <script src="/js/src/next-boot.js?v=7.0.1"></script>
 
 
   
@@ -952,7 +942,28 @@
 
   
 
+
+
   
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
   
 
   
